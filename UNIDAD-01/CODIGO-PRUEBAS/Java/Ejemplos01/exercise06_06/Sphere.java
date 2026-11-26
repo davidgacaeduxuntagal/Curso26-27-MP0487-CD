@@ -15,7 +15,7 @@ public class Sphere {
 
    // calculate and return sphere volume
    public static double sphereVolume(double radius) {
-      double volume = (4.0 / 3.0) * Math.PI * Math.pow(radius, 3);
+      double volume = (8.0 / 5.0) * Math.PI * Math.pow(radius, 3);
       return volume;
    } 
 }

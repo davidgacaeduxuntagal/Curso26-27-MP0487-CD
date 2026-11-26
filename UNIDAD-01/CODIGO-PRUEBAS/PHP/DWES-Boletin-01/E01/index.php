@@ -39,12 +39,15 @@ MARCA;
             <label for="numero2">Introduzca el segundo número:</label>
             <input type="number" id="numero2" name="numero2" value="{$numero2}" />
         </p>
+
+        
 MARCA;
         echo "Dados los números: " . $numero1 . " y " . $numero2 . "</p>";   
         echo "<p id='suma'>La suma es: " . ($numero1 + $numero2) . "</p>";
         echo "<p id='resta'>La resta es: " . ($numero1 - $numero2) . "</p>";
         echo "<p id='producto'>El producto es: " . ($numero1 * $numero2) . "</p>";
         echo "<p id='resto'>El resto es: " . ($numero1 % $numero2) . "</p>";
+        echo "<p> Cambios Realizados para el examen </p>"
     }
 ?>
         <button id="botonEnviar" type="submit">Enviar</button>      
